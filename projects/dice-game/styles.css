@@ -1,0 +1,16 @@
+body {
+  padding:0;
+  margin:0;
+    background-color: lightcoral;
+}
+button {
+    border: 6px solid black;
+ background-color:transparent;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    border-radius: 8px;
+ left:50%;
+  }

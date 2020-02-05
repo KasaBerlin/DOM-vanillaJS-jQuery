@@ -1,0 +1,92 @@
+
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  margin: 0 auto;
+  font-family: 'Libre Baskerville', serif;
+  font-weight:bold;
+}
+body {
+  width: 100vw;
+  height: auto;
+  background-color: salmon;
+}
+h1{
+  padding:5px;
+  font-size:60px;
+}
+form {
+  width: fit-content;
+  margin-top: 50px;
+  position: relative;
+  background: transparent;
+  color: palegreen;
+  text-shadow: 5px 5px 0 rgba(255, 0, 180, 0.5);
+}
+[type="text"] {
+  background: transparent;
+  font-size: 20px;
+  height: 40px;
+  border: 1px solid mediumvioletred;
+  padding: 5px;
+  color: palegreen;
+  width: 100%;
+}
+input[type="text"]:focus {
+  background: transparent;
+  border: 1px solid mediumvioletred;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active  {
+    -webkit-box-shadow: 0 0 0 30px salmon inset !important;
+}
+input:-webkit-autofill {
+  -webkit-text-fill-color: palegreen !important;
+}
+p {
+  display: inline-flex;
+  width: 100%;
+}
+ul {
+  position: relative;
+  width: 100%;
+}
+li {
+  font-size: 20px;
+  padding: 5px 5px 0px 10px;
+  background-color: transparent;
+  border: 1px solid palevioletred;
+  height: 40px;
+  line-height: 24px;
+  color: palegreen;
+  width: inherit;
+  margin: 5px 0 5px 0;
+}
+button {
+  float: right;
+  border: none;
+  font-size: inherit;
+  background-color: transparent;
+}
+button:focus {
+  border: none;
+}
+i {
+  color: lightsalmon;
+  text-shadow: 1px 1px 1px lightslategrey;
+  width: 100%;
+}
+i.far {
+  font-size: 40px;
+  margin-left: 5px;
+}
+i.fas {
+  padding: 5px;
+}
